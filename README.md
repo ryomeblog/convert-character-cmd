@@ -1,0 +1,2 @@
+# convert-character-cmd
+ccコマンドは、OpenAIのAPIを使用してエラーメッセージを萌えキャラの言葉に変換するCLIツールです。

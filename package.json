@@ -1,0 +1,21 @@
+{
+  "name": "cc-cmd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "cc": "./index.js"
+  },
+  "scripts": {
+    "cc": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@inquirer/prompts": "^5.3.6",
+    "child_process": "^1.0.2",
+    "openai": "^4.53.2",
+    "punycode": "^2.3.1"
+  }
+}

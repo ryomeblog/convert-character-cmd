@@ -109,7 +109,7 @@ async function init() {
 async function run(command) {
   if (!fs.existsSync(configPath)) {
     console.error(
-      'APIキーが設定されていません。まず "cc init" コマンドを実行してください。'
+      'APIキーが設定されていません。まず "ce init" コマンドを実行してください。'
     );
     process.exit(1);
   }
@@ -174,6 +174,6 @@ if (args[0] === "init") {
   run(args.slice(1).join(" "));
 } else {
   console.error(
-    "不明なコマンドです。使用方法: cc init または cc run <command>"
+    "不明なコマンドです。使用方法: ce init または ce run <command>"
   );
 }
